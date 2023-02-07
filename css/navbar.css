@@ -31,9 +31,25 @@
     line-height: 3.66667;
     display: inline-block;
     opacity: 0.8;
+    transition: opacity 0.3s;
     letter-spacing: 0.1em;
     position: relative;
     z-index: 1;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+
+.nav-link-text {
+    position: absolute;
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    top: 50%;
+    border: 0;
 }
 
 .nav-link-logo {
@@ -46,15 +62,139 @@
     box-sizing: content-box;
 }
 
-.nav-link-text {
-    position: absolute;
-    clip-path: inset(0px 0px 99.9% 99.9%);
-    overflow: hidden;
-    width: 1px;
-    height: 1px;
-    top: 50%;
-    border: 0;
+.nav-link-store {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_links_store_image.svg");
+    background-position: center;
+    width: 2.5em;
+    max-width: 51px;
+    background-origin: content-box;
+    height: 44px;
+    box-sizing: content-box;
 }
+.nav-link-mac {
+    max-width: 39.1px;
+    background-size: cover;
+    background-origin: content-box;
+    width: 1.91667em;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_links_mac_image__dazlko3t9a6a_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-ipad {
+    max-width: 40.8px;
+    background-size: cover;
+    background-origin: content-box;
+    width: 2em;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_links_ipad_image__fw9qyj9lloi2_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-iphone {
+    background-repeat: no-repeat;
+    max-width: 64.6px;
+    background-size: cover;
+    background-origin: content-box;
+    width: 3.16667em;
+    background-image: url("../images/globalnav_links_iphone_image__ko7x4isga4ia_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-watch {
+    max-width: 59.5px;
+    background-size: cover;
+    background-origin: content-box;
+    width: 2.91667em;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_links_watch_image__gkoblojrlsqe_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-airpods {
+    max-width: 73.1px;
+    background-size: cover;
+    background-origin: content-box;
+    width: 3.58333em;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_links_airpods_image__f969s84ivmaa_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-tvhome {
+    max-width: 110.5px;
+    background-size: cover;
+    background-origin: content-box;
+    width: 5.41699em;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_links_tvhome_image__zb2ewyxbi6ae_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-onlyonapple {
+    max-width: 136px;
+    background-size: cover;
+    background-origin: content-box;
+    width: 6.66667em;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_links_onlyonapple_image__c4t8k97tougm_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-accessories {
+    max-width: 113.9px;
+    background-size: cover;
+    background-origin: content-box;
+    width: 5.58333em;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_links_accessories_image__edj0wqmfwxyu_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-support {
+    max-width: 74.8px;
+    background-size: cover;
+    background-origin: content-box;
+    width: 3.66667em;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_links_support_image__bw9kctll7u3m_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-search {
+    background-size: 15px 88px;
+    background-origin: content-box;
+    width:15px;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_search_image__cbllq1gkias2_large.svg");
+    background-position: 8px 0;
+    height: 44px;
+    box-sizing: content-box;
+}
+.nav-link-bag {
+    background-size: 13px 44px;
+    width: 13px;
+    background-repeat: no-repeat;
+    background-image: url("../images/globalnav_bag_image__yzte50i47ciu_large.svg");
+    background-position: center;
+    height: 44px;
+    box-sizing: content-box;
+}
+
+
+
+
 
 
 
